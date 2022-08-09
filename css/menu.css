@@ -9,7 +9,7 @@
    background: url("../images/bg_4.jpg") center / cover no-repeat fixed;
    content: " ";
    display: block;
-   opacity: 0.3;
+   opacity: 0.5;
    position: absolute;
    z-index: 1;
 
