@@ -1,0 +1,36 @@
+.menu {
+   background: url("../images/bg_4.jpg") center / cover no-repeat fixed;
+   text-align: center;
+}
+
+.menu__title {
+   color: var(--branco);
+}
+
+.menu__options {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+.menu__item {
+   border: 1px solid #ffffff2a;
+   background-color: rgba(0, 0, 0, 0.5);
+   margin: 2em auto;
+   max-width: 75vw;
+   position: relative;
+   text-align: center;
+}
+
+.menu__image {
+   max-width: 80%;
+   opacity: 0.7;
+}
+
+.menu__button {
+   background-color: #ff99002a;
+   border-color: var(--laranja);
+   border-radius: 0px;
+   min-width: 60%;
+   margin-bottom: 2em;
+}

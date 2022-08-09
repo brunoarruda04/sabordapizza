@@ -1,0 +1,23 @@
+.welcome {
+   background-color: var(--preto);
+   text-align: center;
+}
+
+.welcome__image {
+   max-width: 100%;
+}
+
+.welcome__content {
+   padding: 2em 0;
+}
+
+.welcome__title {
+   color: var(--laranja);
+   font-size: 1.5em;
+   margin-bottom: 0.5em;
+}
+
+.welcome__paragraph {
+   color: var(--branco);
+   line-height: 1.5em;
+}
