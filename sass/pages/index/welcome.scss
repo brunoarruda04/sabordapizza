@@ -1,5 +1,5 @@
 .welcome {
-   background-color: var(--preto);
+   background-color: $preto;
    text-align: center;
 }
 
@@ -12,12 +12,12 @@
 }
 
 .welcome__title {
-   color: var(--laranja);
+   color: $laranja;
    font-size: 1.5em;
    margin-bottom: 0.5em;
 }
 
 .welcome__paragraph {
-   color: var(--branco);
+   color: $branco;
    line-height: 1.5em;
 }

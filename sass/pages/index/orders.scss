@@ -1,16 +1,16 @@
 .orders {
    position: relative;
-   background: var(--preto);
+   background: $preto;
    overflow: hidden;
    text-align: center;
 }
 
 .orders::after {
-   background-image: url("../images/bg_3.png");
+   background-image: url("../../../images/bg_3.png");
    background-position: 50% 0;
    content: " ";
    display: block;
-   opacity: 0.125;
+   opacity: 0.2;
    position: absolute;
    z-index: 1;
 
@@ -26,14 +26,14 @@
 }
 
 .orders__title {
-   color: var(--cinza-claro);
+   color: $cinza-claro;
    font-size: 2em;
    font-weight: 300;
    margin-bottom: 0.5em;
 }
 
 .orders__paragraph {
-   color: var(--cinza-claro);
+   color: $cinza-claro;
    font-weight: 500;
 }
 
@@ -54,7 +54,6 @@
 }
 
 .orders__button {
-   text-decoration: none;
-   margin-top: 0.5em;
-   min-width: 150px;
+   margin: 1em 0;
+   min-width: 50%;
 }

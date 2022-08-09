@@ -1,5 +1,5 @@
 .info {
-   background-color: var(--preto);
+   background-color: $preto;
    display: flex;
 }
 
@@ -18,19 +18,19 @@
 }
 
 .info__subtitle {
-   color: var(--branco);
+   color: $branco;
    font-size: 1.6em;
    margin: 0.5em 0;
 }
 
 .info__paragraph {
-   color: var(--cinza);
+   color: $cinza;
 }
 
 .info__button {
    display: flex;
-   color: var(--branco);
-   background-color: var(--laranja);
+   color: $branco;
+   background-color: $laranja;
    padding: 1em 0;
    justify-content: center;
 }

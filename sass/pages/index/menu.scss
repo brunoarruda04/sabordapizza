@@ -1,12 +1,12 @@
 .menu {
-   background: var(--preto);
+   background: $preto;
    position: relative;
    overflow: hidden;
    text-align: center;
 }
 
 .menu::after {
-   background: url("../images/bg_4.jpg") center / cover no-repeat fixed;
+   background: url("../../../images/bg_4.jpg") center / cover no-repeat fixed;
    content: " ";
    display: block;
    opacity: 0.5;
@@ -21,7 +21,7 @@
 }
 
 .menu__title {
-   color: var(--branco);
+   color: $branco;
    z-index: 2;
 }
 
@@ -48,7 +48,7 @@
 
 .menu__button {
    background-color: #ff99002a;
-   border-color: var(--laranja);
+   border-color: $laranja;
    border-radius: 0px;
    min-width: 60%;
    margin-bottom: 2em;

@@ -1,5 +1,5 @@
 .footer {
-   background: url("../images/bg_4.jpg") center / cover no-repeat fixed;
+   background: url("../../../images/bg_4.jpg") center / cover no-repeat fixed;
 }
 
 .footer__content {
@@ -9,22 +9,19 @@
 }
 
 .footer__title {
-   color: var(--branco);
+   color: $branco;
    font-size: 1.6em;
    margin: 0.5em 0;
 }
 
 .footer__paragraph {
-   color: var(--cinza-claro);
+   color: $cinza-claro;
 }
 
-.footer__link {
-   color: var(--preto);
-   padding: 1em 2em;
+.footer__button {
+   padding: 1em 0;
    margin: 0.5em 0;
-   background: var(--laranja);
-   text-align: center;
-   text-decoration: none;
+   background: $laranja;
 }
 
 .footer__list {

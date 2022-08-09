@@ -1,0 +1,26 @@
+$fonte-principal: "Montserrat", sans-serif;
+
+body {
+   font-family: $fonte-principal;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.title {
+   font-size: 3em;
+   font-weight: 400;
+   letter-spacing: -0.05em;
+   padding: 0 1em 0.5em 1em;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 2em 1em;
+}
+
+.icon {
+   height: 100px;
+   width: 100px;
+}
