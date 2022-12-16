@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+         crossorigin="anonymous"
+      />
+      <title>Sabor da Pizza | Cardápio</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" href="../css/reset.css" />
+      <link rel="stylesheet" href="../css/style.css" />
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img src="../images/logo.png" alt="Logo do Sabor da Pizza" class="header__logo" /></a>
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbarSupportedContent"
+               aria-controls="navbarSupportedContent"
+               aria-expanded="false"
+               aria-label="Toggle navigation"
+            >
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Cardápio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                     </ul>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link disabled">Disabled</a>
+                  </li>
+               </ul>
+               <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+               </form>
+            </div>
+         </div>
+      </nav>
+      <main>
+         <section class="menu container">
+            <h2 class="menu__title title">Cardápio</h2>
+            <div class="menu-options__content">
+               <div class="menu-options__item">
+                  <img src="../images/tradicionais.png" alt="" class="menu-options__image" />
+                  <h3 class="menu-options__title">Tradicionais</h3>
+                  <div class="menu-option">
+                     <p class="menu-options__text">1- Alho</p>
+                     <p class="menu-options__description">Alho;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">2- Americana</p>
+                     <p class="menu-options__description">Milho,ovos e bacon;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">3- Baiana</p>
+                     <p class="menu-options__description">Calabresa,cebola e pimenta calabresa;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">4- Caipira</p>
+                     <p class="menu-options__description">Frango e milho;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">5- Calabresa</p>
+                     <p class="menu-options__description">Calabresa;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">6- Caliente</p>
+                     <p class="menu-options__description">Calabresa moída e pimenta calabresa;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">7- Carioca</p>
+                     <p class="menu-options__description">Frango, pimentão e ovos;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">8- Catupiry</p>
+                     <p class="menu-options__description">Catupiry;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">9- Catubresa</p>
+                     <p class="menu-options__description">Calabresa e catupiry;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">10- Da Casa</p>
+                     <p class="menu-options__description">Milho, ervilha, calabresa, ovos e tomate;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">11- Escarola c/ alho</p>
+                     <p class="menu-options__description">Escarola e alho;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">12- Escarola c/ bacon</p>
+                     <p class="menu-options__description">Escarola e bacon;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">13- Frango</p>
+                     <p class="menu-options__description">Frango;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">14- Frango c/ catupiry</p>
+                     <p class="menu-options__description">Frango e catupiry;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">15- Fogassa</p>
+                     <p class="menu-options__description">Cebola,ovos e azeitona</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">16- Havaiana</p>
+                     <p class="menu-options__description">Lombo e abacaxi;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">17- Humita</p>
+                     <p class="menu-options__description">Escarola, milho e tomate;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">18- Italiana</p>
+                     <p class="menu-options__description">Tomate, cebola, parmesão e alho;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">19- Lombo c/catupiry</p>
+                     <p class="menu-options__description">Lombo e catupiry;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">20- Marguerita</p>
+                     <p class="menu-options__description">Tomate e manjericão;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">21- Master</p>
+                     <p class="menu-options__description">Lombo, milho, catupiry e cebola</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">22- Mexicana</p>
+                     <p class="menu-options__description">Calabresa moída, cebola, pimentão e pimenta calabresa;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">23- Mineira</p>
+                     <p class="menu-options__description">Calabresa, milho e ovos;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">24- Milho</p>
+                     <p class="menu-options__description">Milho;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">25- Milho c/catupiry</p>
+                     <p class="menu-options__description">Milho e catupiry;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">26- Mussarela</p>
+                     <p class="menu-options__description">Mussarela;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">27- Napolitana</p>
+                     <p class="menu-options__description">Tomate e parmesão;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">28- Parmegiana</p>
+                     <p class="menu-options__description">Molho e parmesão;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">29- Portuguesa</p>
+                     <p class="menu-options__description">Presunto, cebola, ovos, tomate;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">30- Provolone</p>
+                     <p class="menu-options__description">Provolone;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">31- Quatro queijos</p>
+                     <p class="menu-options__description">Mussarela, provolone, catupiry e parmesão;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">32- Quatro queijos c/alho</p>
+                     <p class="menu-options__description">Mussarela, provolone, catupiry, parmesão e alho;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">33- Romana</p>
+                     <p class="menu-options__description">Mussarela, presunto e tomate;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">34- Romanesca</p>
+                     <p class="menu-options__description">Mussarela, presunto, milho e catupiry;</p>
+                  </div>
+                  <div class="menu-option">
+                     <p class="menu-options__text">35- Vegetariana</p>
+                     <p class="menu-options__description">Milho, ervilha, pimentão e tomate;</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer container">
+         <div class="footer__content">
+            <h4 class="footer__title">Sobre nós</h4>
+            <p class="footer__paragraph">Desde 2011 trabalhamos com muito carinho e dedicação para entregar o melhor aos nossos clientes.</p>
+            <div class="footer__social">
+               <div class="footer__social--facebook"></div>
+               <div class="footer__social--instagram"></div>
+            </div>
+         </div>
+         <div class="footer__content">
+            <h4 class="footer__title">Faça seu pedido</h4>
+            <a href="#" class="footer__button btn btn-warning">Whatsapp</a>
+            <a href="#" class="footer__button btn btn-warning">Ifood</a>
+            <a href="#" class="footer__button btn btn-warning">Telefone</a>
+         </div>
+         <div class="footer__content">
+            <h4 class="footer__title">Venha aproveitar nosso espaço!</h4>
+            <ul class="footer__list">
+               <li class="footer__item footer__paragraph">Rua Natal 1252, Cajuru, Curitiba/PR</li>
+               <li class="footer__item footer__paragraph">(41) 3267-6735</li>
+               <li class="footer__item footer__paragraph">(41) 3267-6380</li>
+            </ul>
+         </div>
+         <div class="footer__copyright">
+            <p class="footer__paragraph">Copyright ©2022 Todos os direitos reservados | Sabor da Pizza</p>
+         </div>
+      </footer>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+         crossorigin="anonymous"
+      ></script>
+   </body>
+</html>
