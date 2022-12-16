@@ -1,32 +1,52 @@
+.menu-options {
+   background: $preto;
+   position: relative;
+   overflow: hidden;
+   text-align: center;
+}
+
+.menu-options::after {
+   background: url("../../../images/bg_4.jpg") center / cover no-repeat fixed;
+   content: " ";
+   display: block;
+   opacity: 0.5;
+   position: absolute;
+   z-index: 1;
+
+   left: 0;
+   top: 0;
+
+   width: 100%;
+   height: 100%;
+}
+
 .menu-options__content {
    text-align: center;
 }
 
 .menu-options__image {
    max-width: 100%;
-   opacity: 0.7;
 }
 
 .menu-options__item {
    border: 1px solid #ffffff2a;
-   background-color: rgba(0, 0, 0, 0.5);
    margin: 2em auto;
    max-width: 90vw;
    text-align: left;
 }
 
 .menu-options__title {
-   color: white;
+   color: $branco;
    font-size: 2em;
    text-align: center;
 }
 
 .menu-options__text {
-   color: white;
+   color: $branco;
    margin: 0.25em 1em;
 }
 
 .menu-options__description {
-   color: wheat;
+   color: $laranja;
    margin: 0.25em 1em 1em 1em;
 }

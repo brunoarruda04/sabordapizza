@@ -246,36 +246,54 @@ body {
   text-align: center;
 }
 
+.menu-options {
+  background: #000000;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.menu-options::after {
+  background: url("../../../images/bg_4.jpg") center/cover no-repeat fixed;
+  content: " ";
+  display: block;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .menu-options__content {
   text-align: center;
 }
 
 .menu-options__image {
   max-width: 100%;
-  opacity: 0.7;
 }
 
 .menu-options__item {
   border: 1px solid rgba(255, 255, 255, 0.1647058824);
-  background-color: rgba(0, 0, 0, 0.5);
   margin: 2em auto;
   max-width: 90vw;
   text-align: left;
 }
 
 .menu-options__title {
-  color: white;
+  color: #ffffff;
   font-size: 2em;
   text-align: center;
 }
 
 .menu-options__text {
-  color: white;
+  color: #ffffff;
   margin: 0.25em 1em;
 }
 
 .menu-options__description {
-  color: wheat;
+  color: #ff9900;
   margin: 0.25em 1em 1em 1em;
 }
 
