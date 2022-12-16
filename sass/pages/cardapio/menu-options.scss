@@ -1,7 +1,6 @@
 .menu-options {
    background: $preto;
    position: relative;
-   overflow: hidden;
    text-align: center;
 }
 
@@ -9,7 +8,7 @@
    background: url("../../../images/bg_4.jpg") center / cover no-repeat fixed;
    content: " ";
    display: block;
-   opacity: 0.5;
+   opacity: 0.35;
    position: absolute;
    z-index: 1;
 
@@ -20,12 +19,9 @@
    height: 100%;
 }
 
-.menu-options__content {
-   text-align: center;
-}
-
 .menu-options__image {
    max-width: 100%;
+   margin-bottom: -5em;
 }
 
 .menu-options__item {
@@ -37,8 +33,26 @@
 
 .menu-options__title {
    color: $branco;
-   font-size: 2em;
+   font-size: 3em;
    text-align: center;
+}
+
+.menu-options__table {
+   border: 2px solid $marrom-claro;
+   margin: 1em auto 2em auto;
+
+   height: 60px;
+   width: 90%;
+}
+
+.menu-options__thead {
+   color: wheat;
+   font-size: 1em;
+}
+
+.menu-options__tbody {
+   color: $laranja;
+   font-size: 1.35em;
 }
 
 .menu-options__text {
