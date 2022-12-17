@@ -38,21 +38,23 @@
 }
 
 .menu-options__table {
-   border: 2px solid $marrom-claro;
-   margin: 1em auto 2em auto;
-
-   height: 60px;
-   width: 90%;
+   align-items: center;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-content: center;
+   text-align: center;
 }
 
-.menu-options__thead {
+.menu-options__table-item {
+   margin: 1em;
+}
+
+.menu-options__table-size {
+   color: $cinza-claro;
+}
+
+.menu-options__table-price {
    color: wheat;
-   font-size: 1em;
-}
-
-.menu-options__tbody {
-   color: $laranja;
-   font-size: 1.35em;
 }
 
 .menu-options__text {
