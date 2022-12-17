@@ -265,11 +265,6 @@ body {
   height: 100%;
 }
 
-.menu-options__image {
-  max-width: 100%;
-  margin-bottom: -5em;
-}
-
 .menu-options__item {
   border: 1px solid rgba(255, 255, 255, 0.1647058824);
   margin: 2em auto;
@@ -278,20 +273,24 @@ body {
 }
 
 .menu-options__title {
-  color: #ffffff;
+  border-bottom: 1px solid #222222;
+  color: #ff9900;
+  padding: 0.25em;
   font-size: 3em;
   text-align: center;
 }
 
 .menu-options__table {
   align-items: center;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  margin: 0 0.75em;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
 }
 
 .menu-options__table-item {
+  font-size: 1.2em;
   margin: 1em;
 }
 
